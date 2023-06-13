@@ -4,3 +4,11 @@ dfsdfsf
 how are you????????????
 111111111111111111
 fsdfsdfgdfdfrgrgr
+
+cd /var/www
+echo "hello"
+sudo chmod -R 777 html
+echo "hello---------"
+sudo mkdir -p /var/www/myproject
+cd /var/www/myproject
+sudo cp -r /var/lib/jenkins/workspace/first-jenkins/. /var/www/myproject/first-jenkins
